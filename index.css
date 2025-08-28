@@ -18,6 +18,7 @@ body{
     padding: 2rem 1.5rem;
     height: 100vh;
     display: flex;
+    align-items: center;
     justify-content: center;
     margin-inline: auto;
     background-color: var(--color-gray-500);
@@ -93,9 +94,10 @@ span{
 }
 
 @media(min-width: 1200px){
+    
     .grid-container{
         grid-template-columns: repeat(2,1fr);
-        grid-template-rows: repeat(2,1fr);
+        grid-template-rows: repeat(2,auto);
         max-width: 38rem;
     }
     .card-1{
