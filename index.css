@@ -8,6 +8,7 @@
     --color-teal-400: hsl(179, 48%, 52%);
     --color-teal-100: hsl(204, 43%, 93%);
     --color-green-400: hsl(71, 73%, 54%);
+    --color-green-500: hsl(71, 100%, 51%);
     --color-gray-500: hsl(218, 22%, 67%);
 }
 body{
@@ -74,6 +75,7 @@ body{
 }
 span{
     font-size: 2rem;
+    font-weight: bold;
 }
 .card-3{
     background-color: var(--color-teal-400);
@@ -91,6 +93,9 @@ span{
     color: white;
     margin-block-end: 1rem;
     box-shadow: 5px 5px 8px var(--color-gray-500);
+}
+.btn:hover{
+    background-color: var(--color-green-500);
 }
 
 @media(min-width: 1200px){
